@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  input(type='hidden', id='totalProfit')
+  h1.pageTitle Craigsflip
+  h2 Make money by flipping goods on Craigslist!
+  input(type='text', id='search-input', placeholder='Enter item name')
+  select(id='city')
+    option
+      span Choose City
+      span(style='font-size: 2px; padding-top: 2px;')&nbsp;&nbsp; &#9660;
+    option(value='austin') Austin
+    option(value='boston') Boston
+    option(value='chicago') Chicago
+    option(value='losangeles') Los Angeles
+    option(value='newyork') New York
+    option(value='phoenix') Phoenix
+    option(value='sandiego') San Diego
+    option(value='sfbay') San Francisco
+    option(value='seattle') Seattle
+    option(value='washingtondc') Washington DC
+  input.price(type='text', id='minPrice', placeholder='Min Price')
+  input.price(type='text', id='maxPrice', placeholder='Max Price')
+
+  button.search(id='search-button') Search
+  #results
+  br
+  #footer
+    span Made by Justin de Guzman. Visit me at 
+    a.footer-link(href='http://justindeguzman.net') http://justindeguzman.net

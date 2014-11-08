@@ -1,0 +1,3 @@
+platform :ios, '8.0'
+pod 'PulsingHalo', '~> 0.0.1'
+pod 'JCNotificationBannerPresenter', '~> 1.1'

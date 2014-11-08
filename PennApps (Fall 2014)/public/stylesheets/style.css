@@ -1,0 +1,81 @@
+
+@font-face {
+  font-family: 'Comic Book';
+  src: url('../fonts/Comic Book.otf');
+}
+
+html { 
+  top: 0;
+  background: url('../images/background.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+body {
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font: 14px Helvetica, Arial, sans-serif;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  font-family: 'Comic Book';
+  padding: 40px 40px 0 40px;
+  z-index: 2;
+}
+
+.canvas-wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.title {
+  float: left;
+  display: block;
+}
+
+.score {
+  display: block;
+  float: left;
+  clear: left;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#play-pause {
+  z-index: 10;
+  position:absolute;
+  text-indent: -9999px;
+  display: block;
+  height: 40px;
+  width: 30px;
+  background: url("../game/img/audio-icon.png") 0 0;
+  right: 100px;
+  top: 57px;
+} 
+
+#play-pause.paused {
+  background-position: 30px 0;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Vineclimb</title>
+	<link href="../stylesheets/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <a href="javascript:playPause();" id="play-pause">Play / Pause</a>
+
+	  <div class='canvas-wrapper'><%- include _game.ejs %></div>
+    <h1 class='title'>Vineclimb</h1>
+    <h1 class='score'>Score: <span class='score-value'>0</span></h1>
+
+    <script src="../game/js/hero.js"></script>
+    <script src="../game/js/projectile.js"></script>
+    <script src="../game/js/branch.js"></script>
+    <script src="../game/js/background.js"></script>
+    <script src="../game/js/cloud.js"></script>
+	  <script src="../game/js/trees.js"></script>
+    <script src="../game/js/riverclimb.js"></script>
+  </body>
+</html>
