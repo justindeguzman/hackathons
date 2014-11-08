@@ -1,0 +1,25 @@
+{
+  "name": "wiwo-web",
+  "version": "1.0.0",
+  "description": "API for Wiwo.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "braintree": "^1.20.0",
+    "express": "^4.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/justindeguzman/wiwo-web.git"
+  },
+  "author": "YHacks Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justindeguzman/wiwo-web/issues"
+  },
+  "homepage": "https://github.com/justindeguzman/wiwo-web"
+}
